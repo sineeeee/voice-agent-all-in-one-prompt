@@ -1,0 +1,40 @@
+
+[
+    {
+      "format": {
+        "order_number": "订单编号(string)",
+        "restaurantID": "餐厅ID(string)",
+        "restaurant_name":"餐厅名（string）",
+        "customer_name": "顾客姓名(string)",
+        "customer_phone": "顾客联系电话(string)",
+        "status": "订单状态(string, 已下单/可取餐/已完成/已取消/已失败/被修改...)",
+        "pickup_time": "取餐时间(timestamp, 用来处理非营业时间下的订单)",
+        "order_items": [
+          {
+            "uqid": "菜品ID(int)",
+            "name": "菜品名称(string)",
+            "portions": "份量(string)",
+            "side": "配菜选择(array)",
+            "price": "单价(float)",
+            "quantity": "数量(int)",
+            "note":"备注（要记录单独每道菜偏好）(string)"
+  
+          }
+        ],
+        "notes": "客户备注(string)",
+        "type": "订单类型(int, 打包/堂食/外送)",
+        "address": "地址(string)",
+        "created_at": "下单时间(timestamp)",
+        "completed_at": "完成时间(timestamp)",
+        "subtotal": "菜品总价(float)",
+        "discount": "折扣(float)",
+        "tax": "税费(float)",
+        "bill_total": "应付金额(float)",
+        "paid_amount": "实付(float)",
+        "payment_status": "支付状态(int, 已支付/待支付)",
+        "payment_method1": "支付方式1(boolean, 是否线上支付)",
+        "payment_method2": "支付方式2(string, 支付备注：信用卡信息/小费支付方法...)"
+      }
+    }
+  ]
+  

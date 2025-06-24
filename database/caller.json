@@ -1,0 +1,11 @@
+[
+    {
+      "format": {
+        "customer_name": "顾客姓名(string)",
+        "customer_phone": "电话号码(string)",
+        "address":[ "历史外送地址数组从最新到过去排列(string)" ],
+        "language_pref": "语言偏好(string)",
+        "user_level": "用户信用等级(int)"
+      }
+    }
+  ]

@@ -1,0 +1,407 @@
+{
+    "format":{"stat": 1, "uqid":0, "n":"", "id":"","pp":{"spe":0,"non": 0,"sma": 0,"lar": 0,"par": 0, "can": 0, "bot": 0, "2l": 0}, "u":["side_A","side_B"], 
+    "s":[["side_A", "side_B"], ["side_C", "side_D"], ["bs", "gs", "wbs", "bbs"]], "tt":["spy", "rec"],"today_discount":"10%"},
+
+    
+    "short hands hints":{"sma": "small", "lar": "large", "non": "no portion options", "par": "party",  "can": "can",  "bot": "bottle",  "2l": "2 liter bottle",  
+    "ff": "french fried", "fr": "fried rice", "pfr": "pork fried rice", "vfr": "vegetable fried rice", "cfr": "chicken fried rice", "bfr": "beef fried rice", 
+    "sfr": "shrimp fried rice", "hsfr": "house special fried rice", "er": "egg roll", "eds": "egg drop soup", "wts": "wonton soup", "hss": "hot & sour soup"},
+    
+    
+    
+    
+    "appetizer":[
+        {"stat": 1, "uqid":1, "n":"Roast Pork Egg Roll", "id":"1", "pp":{"non": 2.25}, "today_discount":"10%"},
+        {"stat": 1, "uqid":2, "n":"Shrimp Egg Roll", "id":"2", "pp":{"non": 2.75}},
+        {"stat": 1, "uqid":3, "n":"Vegetable Spring Roll", "id":"3", "pp":{"non": 2.00}},
+        {"stat": 1, "uqid":4, "n":"Honey Wonton", "id":"4", "pp":{"non": 6.85}},
+        {"stat": 1, "uqid":5, "n":"Fried Wonton(12)", "id":"5", "pp":{"non": 6.85}},
+        {"stat": 1, "uqid":6, "n":"Pan Fried Wonton(12)", "id":"6", "pp":{"non": 6.85}},
+        {"stat": 1, "uqid":7, "n":"Boneless Spare Ribs", "id":"7", "pp":{"sma": 8.85, "lar": 15.75}},
+        {"stat": 1, "uqid":8, "n":"B-B-Q Spare Ribs", "id":"8", "pp":{"sma": 8.85, "lar": 16.25}},
+        {"stat": 1, "uqid":9, "n":"Beef Teriyaki on Stick(5)", "id":"9", "pp":{"non": 8.85}},
+        {"stat": 1, "uqid":10, "n":"Fried Dumpling(7)", "id":"10", "pp":{"non": 8.45}},
+        {"stat": 1, "uqid":11, "n":"Boiled Dumpling(7)", "id":"10", "pp":{"non": 8.45}},
+        {"stat": 1, "uqid":12, "n":"French Fries", "id":"13", "pp":{"non": 6.15}},
+        {"stat": 1, "uqid":13, "n":"Crab Cheese Wonton", "id":"9", "pp":{"sma": 5.25, "lar": 9.45}}
+    ],
+
+
+    "soup":[
+        {"stat": 1, "uqid":18, "n":"Wonton Soup", "id":"15", "pp":{"sma": 3.80, "lar": 6.40}},
+        {"stat": 1, "uqid":19, "n":"Egg Drop Soup", "id":"16", "pp":{"sma": 3.60, "lar": 5.95}, "tt":["spy", "rec"], "today_discount":"10%"},
+        {"stat": 1, "uqid":20, "n":"Wonton Egg Drop Soup", "id":"17", "pp":{"sma": 3.60, "lar": 6.40}},
+        {"stat": 1, "uqid":21, "n":"Chicken Noodle Soup", "id":"18", "pp":{"sma": 3.70, "lar": 6.40}},
+        {"stat": 1, "uqid":22, "n":"Chicken Rice Soup", "id":"18", "pp":{"sma": 3.70, "lar": 6.40}},
+        {"stat": 1, "uqid":23, "n":"Hot & Sour Soup", "id":"19","pp":{"sma": 3.70, "lar": 6.40}},
+        {"stat": 1, "uqid":24, "n":"Vegetable Soup", "id":"20", "pp":{"sma": 3.80, "lar": 6.40}},
+        {"stat": 1, "uqid":25, "n":"Vegetable & Bean Curd Soup", "id":"22", "pp":{"sma": 3.80, "lar": 6.40}, "today_discount":"10%"}
+    ],
+
+
+    "fried rice":[
+        {"stat": 1, "uqid":30, "n":"Fried Rice(onion, bean sprout)", "id":"23", "pp":{"sma": 5.35, "lar": 9.15}},
+        {"stat": 1, "uqid":31, "n":"Roast Pork Fried Rice", "id":"24", "pp":{"sma": 6.05, "lar": 10.75}},
+        {"stat": 1, "uqid":32, "n":"Roast Pork Fried w.Pineappple", "id":"25", "pp":{"sma": 6.25, "lar": 11.05}},
+        {"stat": 1, "uqid":33, "n":"Chicken Fried Rice", "id":"26", "pp":{"sma": 6.05, "lar": 10.75}},
+        {"stat": 1, "uqid":34, "n":"Shrimp Fried Rice", "id":"27", "pp":{"sma": 6.75, "lar": 11.25}},
+        {"stat": 1, "uqid":35, "n":"Beef Fried Rice", "id":"28", "pp":{"sma": 6.75, "lar": 11.25}},
+        {"stat": 1, "uqid":36, "n":"Young Chow Fried Rice", "id":"30", "pp":{"sma": 6.75, "lar": 11.35}},
+        {"stat": 1, "uqid":37, "n":"Mixed Vegetable Fried Rice", "id":"31", "pp":{"sma": 6.05, "lar": 10.50}},
+        {"stat": 1, "uqid":38, "n":"House Special Fried Rice", "id":"33", "pp":{"sma": 6.75, "lar": 11.35}}
+    ],
+
+
+    "chow mein":[
+        {"stat": 1, "uqid":43, "n":"Chicken Chow Mein(w. white meat)", "id":"34", "pp":{"sma": 6.95, "lar": 11.95}, "u":["Rice","Crispy Noodle"]},
+        {"stat": 1, "uqid":44, "n":"Roast Pork Chow Mein", "id":"35", "pp":{"sma": 6.95, "lar": 11.95}, "u":["Rice","Crispy Noodle"]},
+        {"stat": 1, "uqid":45, "n":"Beef Chow Mein", "id":"36", "pp":{"sma": 7.25, "lar": 12.45}, "u":["Rice","Crispy Noodle"]},
+        {"stat": 1, "uqid":46, "n":"Shrimp Chow Mein", "id":"37", "pp":{"sma": 7.25, "lar": 12.45}, "u":["Rice","Crispy Noodle"]},
+        {"stat": 1, "uqid":47, "n":"Vegetable Chow Mein", "id":"38", "pp":{"sma": 6.25, "lar": 11.35}, "u":["Rice","Crispy Noodle"]},
+        {"stat": 1, "uqid":48, "n":"House Special Chow Mein", "id":"39", "pp":{"sma": 7.25, "lar": 12.45}, "u":["Rice","Crispy Noodle"]},
+        {"stat": 1, "uqid":49, "n":"Crab Meat Chow Mein", "id":"34", "pp":{"sma": 6.95, "lar": 11.95}, "u":["Rice","Crispy Noodle"]}
+    ],
+
+
+    "chop suey":[
+        {"stat": 1, "uqid":54, "n":"Chicken Chop Suey(w. white meat)", "id":"41", "pp":{"sma": 6.75, "lar": 11.95}, "u":["Rice"]},
+        {"stat": 1, "uqid":55, "n":"Roast Pork Chop Suey", "id":"42", "pp":{"sma": 6.75, "lar": 11.95}, "u":["Rice"]},
+        {"stat": 1, "uqid":56, "n":"Beef Chop Suey", "id":"43", "pp":{"sma": 7.25, "lar": 12.45}, "u":["Rice"]},
+        {"stat": 1, "uqid":57, "n":"Beef Chop Suey", "id":"43", "pp":{"sma": 7.25, "lar": 12.45}, "u":["Rice"]},
+        {"stat": 1, "uqid":58, "n":"Vegetable Pork Chop Suey", "id":"45", "pp":{"sma": 6.75, "lar": 11.35}, "u":["Rice"]}
+    ],
+
+
+    "lo mein noodle":[
+        {"stat": 1, "uqid":63, "n":"Roast Pork Lo Mein", "id":"46", "pp":{"sma": 6.95, "lar": 11.95}},
+        {"stat": 1, "uqid":64, "n":"Chicken Lo Mein", "id":"47", "pp":{"sma": 6.95, "lar": 11.95}},
+        {"stat": 1, "uqid":65, "n":"Beef Lo Mein", "id":"48", "pp":{"sma": 7.25, "lar": 12.45}},
+        {"stat": 1, "uqid":66, "n":"Shrimp Lo Mein", "id":"49", "pp":{"sma": 7.25, "lar": 12.45}},
+        {"stat": 1, "uqid":67, "n":"Vegetable Lo Mein", "id":"50", "pp":{"sma": 6.75, "lar": 11.35}},
+        {"stat": 1, "uqid":68, "n":"House Special Lo Mein", "id":"51", "pp":{"sma": 7.45, "lar": 12.45}}
+    ],
+
+
+    "egg foo young":[
+       {"stat": 1, "uqid":73, "n":"Roast Pork Egg Foo Young", "id":"52","pp":{"non":11.95}, "u":["Rice"]},
+       {"stat": 1, "uqid":74, "n":"Chicken Egg Foo Young", "id":"53","pp":{"non":11.95}, "u":["Rice"]},
+       {"stat": 1, "uqid":75, "n":"Beef Egg Foo Young", "id":"54","pp":{"non":12.45}, "u":["Rice"]},
+       {"stat": 1, "uqid":76, "n":"Shrimp Egg Foo Young", "id":"55","pp":{"non":12.45}, "u":["Rice"]},
+       {"stat": 1, "uqid":77, "n":"Vegetable Egg Foo Young", "id":"56","pp":{"non":11.35}, "u":["Rice"]},
+       {"stat": 1, "uqid":78, "n":"House Special Egg Foo Young", "id":"57","pp":{"non":12.45}, "u":["Rice"]}
+    ],
+
+
+    "chow mei fun":[
+        {"stat": 1, "uqid":83, "n":"Roast Pork Chow Mei Fun", "id":"58", "pp":{"non": 11.95}},
+        {"stat": 1, "uqid":84, "n":"Chicken Chow Mei Fun", "id":"59", "pp":{"non": 11.95}},
+        {"stat": 1, "uqid":85, "n":"Beef Chow Mei Fun", "id":"60", "pp":{"non": 12.45}},
+        {"stat": 1, "uqid":86, "n":"Shrimp Chow Mei Fun", "id":"61", "pp":{"non": 12.45}},
+        {"stat": 1, "uqid":87, "n":"House Special Chow Mei Fun", "id":"62", "pp":{"non": 12.45}},
+        {"stat": 1, "uqid":88, "n":"Vegetable Chow Mei Fun", "id":"63", "pp":{"non": 11.35}},
+        {"stat": 1, "uqid":89, "n":"Singapore Chow Mei Fun", "id":"64","pp":{"non": 12.45}, "tt":["spy"]}
+    ],
+
+
+    "chow ho fun":[
+        {"stat": 1, "uqid":94, "n":"Roast Pork Chow Ho Fun", "id":"65", "pp":{"non": 11.95}},
+        {"stat": 1, "uqid":95, "n":"Chicken Chow Ho Fun", "id":"66", "pp":{"non": 11.95}},
+        {"stat": 1, "uqid":96, "n":"Beef Chow Ho Fun", "id":"67", "pp":{"non": 12.45}},
+        {"stat": 1, "uqid":97, "n":"Shrimp Chow Ho Fun", "id":"68", "pp":{"non": 12.45}},
+        {"stat": 1, "uqid":98, "n":"House Special Chow Ho Fun", "id":"69", "pp":{"non": 12.45}},
+        {"stat": 1, "uqid":99, "n":"Vegetable Chow Ho Fun", "id":"70", "pp":{"non": 11.35}}
+    ],
+
+
+    "pork":[
+        {"stat": 1, "uqid":104, "n":"Roast Pork w.Chinese Vegetable", "id":"71", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":105, "n":"Roast Pork w.Broccoli", "id":"72", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":106, "n":"Roast Pork w.Mushroom", "id":"74", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":107, "n":"Roast Pork w.Black Bean Sauce", "id":"75", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":108, "n":"Roast Pork w.Garlic Sauce", "id":"76","pp":{"sma":7.95, "lar":14.15}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":109, "n":"Roast Pork Szechuan Style", "id":"77","pp":{"sma":7.95, "lar":14.15}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":110, "n":"Curry Pork", "id":"79", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"], "tt":["spy"]}
+    ],
+
+
+    "chicken":[
+        {"stat": 1, "uqid":115, "n":"Chicken w.Broccoli", "id":"80", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":116, "n":"Moo Goo Gai Pan", "id":"81", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":117, "n":"Chicken w.Chinese Vegetable", "id":"82", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":118, "n":"Chicken w.Black Bean Sauce", "id":"83", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":119, "n":"Curry Chicken w.Onions", "id":"84", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":120, "n":"Chicken w.Garlic Sauce", "id":"85", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":121, "n":"Kung Po Chicken", "id":"86", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":122, "n":"Diced Chicken w.Cashew Nuts", "id":"87", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":123, "n":"Chicken Szechuan Style", "id":"88", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":124, "n":"Chicken w.Pineapple", "id":"89", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]},
+        {"stat": 1, "uqid":125, "n":"Chicken w.Mixed Vegetables", "id":"90", "pp":{"sma":7.95, "lar":14.15}, "u":["Rice"]}
+    ],
+
+
+    "beef":[
+        {"stat": 1, "uqid":130, "n":"Pepper Sceak w.Onions", "id":"91", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":131, "n":"Beef w.Chinese Vegetable", "id":"92", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":132, "n":"Beef w.Broccoli", "id":"93", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":133, "n":"Beef w.Oyster Sauce", "id":"94", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":134, "n":"Beef w.Mashroom", "id":"95", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":135, "n":"Curry Beef w.Onions", "id":"96","pp":{"sma":8.55, "lar":15.35}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":136, "n":"Beef w.Garlic Sauce", "id":"97","pp":{"sma":8.55, "lar":15.35}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":137, "n":"Beef w.Bean Curd", "id":"99", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":138, "n":"Beef Szechuan Style", "id":"100","pp":{"sma":8.55, "lar":15.35}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":139, "n":"Beef w.Pineapple", "id":"101", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":140, "n":"Beef w.Mixed Vegetables", "id":"102", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]}
+    ],
+
+
+    "seafood":[
+        {"stat": 1, "uqid":145, "n":"Shrimp w.Lobster Sauce", "id":"103", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":146, "n":"Shrimp w.Chinese Vegetables", "id":"104", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":147, "n":"Shrimp w.Broccoli", "id":"105", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":148, "n":"Shrimp w.Mashroom", "id":"106", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":149, "n":"Shrimp w.Black Bean Sauce", "id":"107", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":150, "n":"Curry Shrimp w.Onions", "id":"108", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":151, "n":"Shrimp w.Garlic Sauce", "id":"109", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":152, "n":"Hot & Spicy Shrimp", "id":"110", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":153, "n":"Shrimp w.Cashew Nuts", "id":"111", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":154, "n":"Shrimp w.Mixed Vegetables", "id":"112", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":155, "n":"Kung Po Shrimp", "id":"113", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]},
+        {"stat": 1, "uqid":156, "n":"Shrimp w.Pineapple", "id":"114", "pp":{"sma":8.55, "lar":15.35}, "u":["Rice"]}
+    ],
+
+
+    "moo shu specialities":[
+        {"stat": 1, "uqid":161, "n":"Moo Shu Pork", "id":"115", "pp":{"non":12.75}, "u":["Pancakes(5)"]},
+        {"stat": 1, "uqid":162, "n":"Moo Shu Chicken", "id":"116", "pp":{"non":12.75}, "u":["Pancakes(5)"]},
+        {"stat": 1, "uqid":163, "n":"Moo Shu Beef", "id":"117", "pp":{"non":13.05}, "u":["Pancakes(5)"]},
+        {"stat": 1, "uqid":164, "n":"Moo Shu Shrimp", "id":"118", "pp":{"non":13.05}, "u":["Pancakes(5)"]},
+        {"stat": 1, "uqid":165, "n":"Moo Shu Delight", "id":"119", "pp":{"non":13.45}, "u":["Pancakes(5)"]},
+        {"stat": 1, "uqid":166, "n":"Moo Shu Vegetable", "id":"120", "pp":{"non":12.65}, "u":["Pancakes(5)"]}
+    ],
+
+
+    "vegetables":[
+        {"stat": 1, "uqid":171, "n":"Sauteed Mixed Vegetable", "id":"121", "pp":{"sma":6.95, "lar": 11.75}, "u":["Rice"]},
+        {"stat": 1, "uqid":172, "n":"Fried Bean Curd w.Mixed Vegetable", "id":"122", "pp":{"sma":6.95, "lar": 11.75}, "u":["Rice"]},
+        {"stat": 1, "uqid":173, "n":"Bean Curd w.Szechuan Style", "id":"123", "pp":{"sma":6.95, "lar": 11.75}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":174, "n":"Broccoli w.Garlic Sauce", "id":"124", "pp":{"sma":6.95, "lar": 11.75}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":175, "n":"Mixed Vegetable w.Garlic Sauce", "id":"125", "pp":{"sma":6.95, "lar": 11.75}, "u":["Rice"], "tt":["spy"]},
+        {"stat": 1, "uqid":176, "n":"Broccoli w.Mushroom", "id":"126", "pp":{"sma":6.95, "lar": 11.75}, "u":["Rice"]}
+    ],
+
+
+    "sweet and sour":[
+        {"stat": 1, "uqid":181, "n":"Sweet & Sour Pork", "id":"127", "pp":{"sma":7.75, "lar": 13.25}, "u":["Rice"]},
+        {"stat": 1, "uqid":182, "n":"Sweet & Sour Chicken", "id":"128", "pp":{"sma":7.75, "lar": 13.25}, "u":["Rice"]},
+        {"stat": 1, "uqid":183, "n":"Sweet & Sour Shrimp", "id":"129", "pp":{"sma":8.75, "lar": 14.95}, "u":["Rice"]}
+
+    ],
+
+
+    "side order":[
+        {"stat": 1, "uqid":189, "n":"Brown Rice", "pp":{"sma": 2.75, "lar": 4.75}},
+        {"stat": 1, "uqid":190, "n":"White Rice", "pp":{"sma": 2.50, "lar": 4.45}},
+        {"stat": 1, "uqid":191, "n":"Noodle(Bag)", "pp":{"non": 0.50}},
+        {"stat": 1, "uqid":192, "n":"Fortune Cookies(4 Pcs)", "pp":{"non": 0.6}}
+    ],
+
+
+    "drink":[
+        {"stat": 1, "uqid":214, "n":"Soda", "pp":{"can": 1.5, "bottle": 2.5, "2liter": 3.5}}
+    ],
+
+
+    "chef's special deluxe":[
+        {"stat": 1, "uqid":219, "n":"Happy Family", "id":"s1", "pp":{"non": 16.25}, "u":["Rice"], "tt":["rec"]},
+        {"stat": 1, "uqid":220, "n":"Seafood Delight", "id":"s2", "pp":{"non": 16.45}, "u":["Rice"], "tt":["rec"]},
+        {"stat": 1, "uqid":221, "n":"Sizzling Beef w.Scallops", "id":"s3", "pp":{"non": 16.25}, "u":["Rice"], "tt":["rec"]},
+        {"stat": 1, "uqid":222, "n":"Orange Chicken", "id":"s4", "pp":{"non": 14.45}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":223, "n":"Orange Beef", "id":"s5", "pp":{"non": 15.05}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":224, "n":"General Tao's Chicken", "id":"s6", "pp":{"non": 14.45}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":225, "n":"Sesame Chicken", "id":"s7", "pp":{"non": 14.45}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":226, "n":"Sesame Shrimp", "id":"s8", "pp":{"non": 15.45}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":227, "n":"Hunan Chicken", "id":"s9", "pp":{"non": 14.45}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":228, "n":"Hunan Pork", "id":"s9", "pp":{"non": 14.45}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":229, "n":"Hot & Spicy Beef", "id":"s10", "pp":{"non": 15.15}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":230, "n":"Shrimp & Scallop in Garlic Sauce", "id":"s11", "pp":{"non": 16.25}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":231, "n":"Kung Po Chicken & Shrimp", "id":"s12", "pp":{"non": 16.05}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":232, "n":"Shrimp Hunan Style", "id":"s13", "pp":{"non": 15.15}, "u":["Rice"], "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":233, "n":"Beef Hunan Style", "id":"s13", "pp":{"non": 15.15}, "u":["Rice"], "tt":["spy", "rec"]}
+
+    ],
+
+
+    "combo":[
+        {"stat": 1, "uqid":239, "n":"Fried Chicken Wings(4)", "id":"A1",  "pp":{"non": 8.45}},
+        {"stat": 1, "uqid":240, "n":"Fried 1/2 Chicken", "id":"A2",  "pp":{"non": 8.45}},
+        {"stat": 1, "uqid":241, "n":"Spare Rib Tips", "id":"A3",  "pp":{"non": 7.75}},
+        {"stat": 1, "uqid":242, "n":"American Fried Shrimp(5)", "id":"A4",  "pp":{"non": 7.85}},
+        {"stat": 1, "uqid":243, "n":"Fried Baby Shrimp(16)", "id":"A5",  "pp":{"non": 8.25}},
+        {"stat": 1, "uqid":244, "n":"Fried Crab Meat(5)", "id":"A6",  "pp":{"non": 6.95}},
+        {"stat": 1, "uqid":245, "n":"Fried Scallop(10)", "id":"A7",  "pp":{"non": 6.95}},
+
+        {"stat": 1, "uqid":247, "n":"Fried Chicken Wings(4)", "id":"A1", "pp":{"non": 10.75}, "s":[["ff", "fr"]]},
+        {"stat": 1, "uqid":248, "n":"Fried 1/2 Chicken", "id":"A2", "pp":{"non": 10.65}, "s":[["ff", "fr"]]},
+        {"stat": 1, "uqid":249, "n":"Spare Rib Tips", "id":"A3", "pp":{"non": 10.00}, "s":[["ff", "fr"]]},
+        {"stat": 1, "uqid":250, "n":"American Fried Shrimp(5)", "id":"A4", "pp":{"non": 10.55}, "s":[["ff", "fr"]]},
+        {"stat": 1, "uqid":251, "n":"Fried Baby Shrimp(16)", "id":"A5", "pp":{"non": 10.75}, "s":[["ff", "fr"]]},
+        {"stat": 1, "uqid":252, "n":"Fried Crab Meat(5)", "id":"A6", "pp":{"non": 9.00}, "s":[["ff", "fr"]]},
+        {"stat": 1, "uqid":253, "n":"Fried Scallop", "id":"A7", "pp":{"non": 9.00}, "s":[["ff", "fr"]]},
+
+        {"stat": 1, "uqid":255, "n":"Fried Chicken Wings(4)", "id":"A1", "pp":{"non": 10.85}, "s":[["pfr", "vfr", "cfr"]]},
+        {"stat": 1, "uqid":256, "n":"Fried 1/2 Chicken", "id":"A2", "pp":{"non": 11.05}, "s":[["pfr", "vfr", "cfr"]]},
+        {"stat": 1, "uqid":257, "n":"Spare Rib Tips", "id":"A3", "pp":{"non": 10.40}, "s":[["pfr", "vfr", "cfr"]]},
+        {"stat": 1, "uqid":258, "n":"American Fried Shrimp(5)", "id":"A4", "pp":{"non": 10.95}, "s":[["pfr", "vfr", "cfr"]]},
+        {"stat": 1, "uqid":259, "n":"Fried Baby Shrimp(16)", "id":"A5", "pp":{"non": 10.95}, "s":[["pfr", "vfr", "cfr"]]},
+        {"stat": 1, "uqid":260, "n":"Fried Crab Meat(5)", "id":"A6", "pp":{"non": 9.75}, "s":[["pfr", "vfr", "cfr"]]},
+        {"stat": 1, "uqid":261, "n":"Fried Scallop", "id":"A7", "pp":{"non": 9.75}, "s":[["pfr", "vfr", "cfr"]]},
+
+        {"stat": 1, "uqid":263, "n":"Fried Chicken Wings(4)", "id":"A1", "pp":{"non": 11.45}, "s":[["bfr", "sfr"]]},
+        {"stat": 1, "uqid":264, "n":"Fried 1/2 Chicken", "id":"A2", "pp":{"non": 11.75}, "s":[["bfr", "sfr"]]},
+        {"stat": 1, "uqid":265, "n":"Spare Rib Tips", "id":"A3", "pp":{"non": 11.25}, "s":[["bfr", "sfr"]]},
+        {"stat": 1, "uqid":266, "n":"American Fried Shrimp(5)", "id":"A4", "pp":{"non": 11.75}, "s":[["bfr", "sfr"]]},
+        {"stat": 1, "uqid":267, "n":"Fried Baby Shrimp(16)", "id":"A5", "pp":{"non": 11.75}, "s":[["bfr", "sfr"]]},
+        {"stat": 1, "uqid":268, "n":"Fried Crab Meat(5)", "id":"A6", "pp":{"non": 10.50}, "s":[["bfr", "sfr"]]},
+        {"stat": 1, "uqid":269, "n":"Fried Scallop", "id":"A7", "pp":{"non": 10.50}, "s":[["bfr", "sfr"]]},
+
+        {"stat": 1, "uqid":271, "n":"Fried Chicken Wings(4)", "id":"A1", "pp":{"non": 11.45}, "u":["hsfr"]},
+        {"stat": 1, "uqid":272, "n":"Fried 1/2 Chicken", "id":"A2", "pp":{"non": 11.75}, "u":["hsfr"]},
+        {"stat": 1, "uqid":273, "n":"Spare Rib Cips", "id":"A3", "pp":{"non": 11.25}, "u":["hsfr"]},
+        {"stat": 1, "uqid":274, "n":"American Fried Shrimp(5)", "id":"A4", "pp":{"non": 11.75}, "u":["hsfr"]},
+        {"stat": 1, "uqid":275, "n":"Fried Baby Shrimp(16)", "id":"A5", "pp":{"non": 11.75}, "u":["hsfr"]},
+        {"stat": 1, "uqid":276, "n":"Fried Crab Meac(5)", "id":"A6", "pp":{"non": 10.50}, "u":["hsfr"]},
+        {"stat": 1, "uqid":277, "n":"Fried Scallop", "id":"A7", "pp":{"non": 10.50}, "u":["hsfr"]},
+
+        {"stat": 1, "uqid":279, "n":"Chicken Chow Mein(w.whice meac)", "id":"C1", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":280, "n":"Shrimp Chow Mein", "id":"C2", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":281, "n":"Chicken Egg Foo Young", "id":"C3", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":282, "n":"Roast Pork Egg Foo Young", "id":"C3", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":283, "n":"Pepper Steak w. Onion", "id":"C4", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":284, "n":"Moo Goo Gai Pan", "id":"C5", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":285, "n":"Shrimp w.Lobster Sauce", "id":"C6", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":286, "n":"Sweet & Sour Pork", "id":"C7","pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":287, "n":"Sweet & Sour Chicken", "id":"C7","pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":288, "n":"Bar-B-Q Spare Ribs", "id":"C8", "pp":{"non": 11.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":289, "n":"Boneless Spare Ribs", "id":"C8", "pp":{"non": 11.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":290, "n":"Roast P w.Chinese Vegetables", "id":"C9", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":291, "n":"Chicken w.Broccoli", "id":"C10", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":292, "n":"Beef w.Broccoli", "id":"C11", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":293, "n":"Roast Pork Lo Mein", "id":"C12", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":294, "n":"Roast Pork w.Broccoli", "id":"C13", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":295, "n":"Kung Po Chicken", "id":"C14", "pp":{"non": 10.25}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":296, "n":"Chicken w.Garlic Sauce", "id":"C15", "pp":{"non": 10.85}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":297, "n":"Beef w.Garlic Sauce", "id":"C15", "pp":{"non": 10.85}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":298, "n":"Shrimp w.Broccoli", "id":"C16", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":299, "n":"Hot & Spicy Shrimp", "id":"C17", "pp":{"non": 10.85}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":300, "n":"General Tso's Chicken", "id":"C18", "pp":{"non": 10.85}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":301, "n":"Sesame Chicken", "id":"C19", "pp":{"non": 10.85}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":302, "n":"Orange Chicken", "id":"C20", "pp":{"non": 10.85}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":303, "n":"Diced Chicken w.Cashew Nuts", "id":"C21", "pp":{"non": 10.25}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":304, "n":"Curry Chicken w.Onions", "id":"C22", "pp":{"non": 10.25}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":305, "n":"Shrimp Lo Mein", "id":"C23", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":306, "n":"Beef Lo Mein", "id":"C23", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":307, "n":"Chicken w.Mixed Vegetables", "id":"C24", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":308, "n":"Beef w.Mixed Vegetables", "id":"C24", "pp":{"non": 10.85}, "u":[" pfr", "er"]},
+        {"stat": 1, "uqid":309, "n":"Hot & Spicy Beef", "id":"C25", "pp":{"non": 10.85}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":310, "n":"Shrimp w.Garlic Sauce", "id":"C26", "pp":{"non": 10.85}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":311, "n":"Broccoli w.Garlic Sauce", "id":"C27", "pp":{"non": 10.25}, "u":[" pfr", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":312, "n":"Fried Bean Curd w.Mixed Vegetables", "id":"C28", "pp":{"non": 10.25}, "u":[" pfr", "er"]}
+    ],
+
+
+    "party order":[
+        {"stat": 1, "uqid":317, "n":"Egg Roll(20)", "id":"p1", "pp":{"par": 38} },
+        {"stat": 1, "uqid":318, "n":"Chicken Fried Rice", "id":"p2", "pp":{"par": 38} },
+        {"stat": 1, "uqid":319, "n":"Roast Pork Fried Rice", "id":"p2", "pp":{"par": 38} },
+        {"stat": 1, "uqid":320, "n":"Chicken w.Broccoli", "id":"p3", "pp":{"par": 43} },
+        {"stat": 1, "uqid":321, "n":"General Tso's Chicken", "id":"p4", "pp":{"par": 46} , "tt":["spy", "rec"]},
+        {"stat": 1, "uqid":322, "n":"Chicken Lo Mein", "id":"p5", "pp":{"par": 41} },
+        {"stat": 1, "uqid":323, "n":"Roast Pork Lo Mein", "id":"p5", "pp":{"par": 41} },
+        {"stat": 1, "uqid":324, "n":"Beef w.Broccoli", "id":"p6", "pp":{"par": 50} }
+    ],
+
+
+    "taiwan":[
+        {"stat": 1, "uqid":329, "n":"Beef Stew Noodle Soup", "id":"1", "pp":{"non": 12.45} },
+        {"stat": 1, "uqid":330, "n":"Pork Chop w.Rice", "id":"2", "pp":{"non": 10.65} },
+        {"stat": 1, "uqid":331, "n":"Chicken Thigh w.Rice", "id":"3", "pp":{"non": 10.65} },
+        {"stat": 1, "uqid":332, "n":"Minced Pork w.Rice", "id":"4", "pp":{"non": 9.35} },
+        {"stat": 1, "uqid":333, "n":"Singapore Mei Fun", "id":"5", "pp":{"non": 12.45} },
+        {"stat": 1, "uqid":334, "n":"Chinese Sausage Fried Rice", "id":"6", "pp":{"non": 7.95} },
+        {"stat": 1, "uqid":335, "n":"Minced Pork w.Noodle", "id":"7", "pp":{"non": 10.65} }
+    ],
+
+
+    "all about healthy & diet":[
+        {"stat": 1, "uqid":340, "n":"Mixed Vegetables", "id":"1", "pp":{"non": 12.05}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":341, "n":"Bean Curd w.Mixed Vegetables", "id":"2", "pp":{"non": 12.05}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":342, "n":"Plain Broccoli", "id":"3", "pp":{"non": 12.05}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":343, "n":"Chicken w.Broccoli", "id":"4", "pp":{"non": 14.15}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":344, "n":"Pork w.Broccoli", "id":"5", "pp":{"non": 14.15}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":345, "n":"Shrimp w.Broccoli", "id":"6", "pp":{"non": 15.35}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":346, "n":"Beef w.Broccoli", "id":"7", "pp":{"non": 15.35}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":347, "n":"Happy Family", "id":"8", "pp":{"non": 16.25}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":348, "n":"Seafood Delight", "id":"9", "pp":{"non": 16.45}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":349, "n":"Sizzling Beef w.Scallops", "id":"10", "pp":{"non": 16.25}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":350, "n":"Chicken w.Mixed Vegetables", "id":"11", "pp":{"non": 14.15}, "s":["bs", "gs", "wbs", "wbs"]},
+        {"stat": 1, "uqid":351, "n":"Shrimp & Scallops w.Mixed Vegetables", "id":"12", "pp":{"non": 16.25}, "s":["bs", "gs", "wbs", "wbs"]}
+    ],
+
+    "lunch special":[
+        {"stat": 1, "uqid":355, "n":"Chicken Chow Mein(w.white meat)", "id":"L1", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":356, "n":"Shrimp Chow Mein(", "id":"L2", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":357, "n":"Roast Pork or Chicken Egg Foo Young", "id":"L3", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":358, "n":"Roast Pork or Chicken Egg Foo Young", "id":"L3", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":359, "n":"Beef or Shrimp Egg Foo Young", "id":"L4", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":360, "n":"Chicken or Roast Pork w.Broccoli", "id":"L5", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":361, "n":"Beef w.Broccoli", "id":"L6", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":362, "n":"Shrimp w.Broccoli", "id":"L6", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":363, "n":"Mo Goo Gai Pan", "id":"L7", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":364, "n":"Sweet & Sour Chicken", "id":"L8", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":365, "n":"Sweet & Sour Pork", "id":"L8", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":366, "n":"Roast Pork Lo Mein", "id":"L9", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":367, "n":"Roast Chicken Lo Mein", "id":"L9", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":368, "n":"Beef Lo Mein", "id":"L10", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":369, "n":"Shrimp Lo Mein", "id":"L10", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":370, "n":"Roast Pork w.Chinese Vegetable", "id":"L11", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":371, "n":"Beef w.Chinese Vegetable", "id":"L12", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":372, "n":"Shrimp w.Chinese Vegetable", "id":"L12", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":373, "n":"Chicken w.Mixed Vegetables", "id":"L13", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":374, "n":"Chicken w.Black Bean Sauce", "id":"L14", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":375, "n":"Chicken Cashew Nuts", "id":"L15", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":376, "n":"Hunan Chicken", "id":"L16", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":377, "n":"Kung Po Chicken", "id":"L17", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":378, "n":"Chicken w.Garlic Sauce", "id":"L18", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":379, "n":"Chicken w.Szechuan Style", "id":"L19", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":380, "n":"Curry Chicken", "id":"L20", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":381, "n":"Pepper Steak w.Onion", "id":"L21", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":382, "n":"Beef w.Garlic Sauce", "id":"L22", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":383, "n":"Shrimp w.Garlic Sauce", "id":"L22", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":384, "n":"Shrimp w.Lobster Sauce", "id":"L23", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":385, "n":"Shrimp w.Cashew Nuts", "id":"L24", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":386, "n":"Hot & Spicy Shrimp", "id":"L25", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":387, "n":"Curry Beef", "id":"L26", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":388, "n":"Curry Shrimp", "id":"L26", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":389, "n":"Seasame Chicken", "id":"L27", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":390, "n":"General Tso's Chicken", "id":"L28", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":391, "n":"BBQ Spare Ribs", "id":"L29", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":392, "n":"Boneless Spare Ribs", "id":"L29", "pp":{"non": 9.35}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":393, "n":"Sautted Mixed Vegetable", "id":"L30", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":394, "n":"Broccoli w.Garlic Sauce", "id":"L31", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"], "tt":["spy"]},
+        {"stat": 1, "uqid":395, "n":"Bean Curd w.Mixed Vegetables", "id":"L32", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":396, "n":"Broccoli w.Mushroom", "id":"L33", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]},
+        {"stat": 1, "uqid":397, "n":"Sautted Broccoli", "id":"L34", "pp":{"non": 8.75}, "u":[" pfr"], "s":["eds", "wts", "hss", "er"]}
+    ],
+    "upgrade and swtich":[
+        "format",{"stat": 1, "uqid":0, "n":"upgrade XXX","pp": 0},
+        {"stat": 1, "uqid":10000, "n":"SWITCH pork fried rice to white rice","pp": 0.0},
+        {"stat": 1, "uqid":10001, "n":"SWITCH pork fried rice to brown rice","pp": 0.0},
+        {"stat": 1, "uqid":10002, "n":"SWITCH pork fried rice to chicken fried rice","pp": 0.0},
+        {"stat": 1, "uqid":10003, "n":"UPGRADE white rice to brown rice","pp": 0.5},
+        {"stat": 1, "uqid":10004, "n":"UPGRADE white rice to vegetable fried rice","pp": 1},
+        {"stat": 1, "uqid":10005, "n":"UPGRADE white rice to pork fried rice","pp": 2},
+        {"stat": 1, "uqid":10006, "n":"UPGRADE white rice to chicken fried rice","pp": 2},
+        {"stat": 1, "uqid":10007, "n":"UPGRADE white rice to shrimp fried rice","pp": 2.5},
+        {"stat": 1, "uqid":10008, "n":"UPGRADE UPGRADE white to beef fried rice","pp":3}
+    ]
+}
